@@ -7,7 +7,7 @@ namespace Inlämningsuppgift
         static void Main(string[] args)
         {
             Random Random = new Random();
-            int RandomNumber = Random.Next(1, 100);
+            int RandomNumber = Random.Next(1, 101);
             int tal = 0;
             int försök = 0;
             Console.WriteLine("Ange ett heltal: ");
